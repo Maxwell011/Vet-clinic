@@ -1,10 +1,13 @@
 /* Database schema to keep the structure of entire database. */
 
 CREATE TABLE animals (
-    name varchar,
+    id INT GENERATED ALWAYS AS IDENTITY,
+    name varchar(100),
     date_of_birth date,
-    id integer,
-    escape_attempts integer,
+    escape_attempts int,
     neutered boolean,
-    weight_kg float
+    weight_kg decimal
 );
+
+ALTER TABLE animals 
+ADD species varchar(100)
