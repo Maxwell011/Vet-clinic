@@ -30,6 +30,42 @@ INSERT INTO species ( name )
 ('Pokemon'),
 ('Digimon');
 
+INSERT INTO vets ( name, age, date_of_graduation ) 
+ VALUES 
+('William Tatcher', 45, '2000-04-23'),
+('Maisy Smith', 26, '2019-01-17'),
+('Stephanie Mendez', 64, '1981-05-04'),
+('Jack Harkness', 38, '2008-06-08');
+
+
+INSERT INTO specializations
+VALUES
+  (1, 1),
+   (1, 3),
+  (2, 3),
+  (2, 4);
+
+ INSERT INTO visits
+VALUES (1, 4, 'February 24, 2021'),
+ (2, 3,  'September 29, 2019'),
+ (3, 1,  'January 11, 2021'),
+ (3, 3,  'May 24, 2020' ),
+ (4, 4,  'October 3, 2020'),
+ (4, 4,  'November 4, 2020'),
+ (5, 2,  'January 24, 2019'),
+ (5, 2,  'May 15, 2019'),
+ (5, 2,  'February 27, 2020'),
+ (5, 2,   'August 3, 2020'),
+ (6, 1, 'May 24, 2020'),
+ (6, 3, 'July 22, 2020'),
+ (7, 4, 'February 2, 2021'),
+ (8, 2, 'January 5, 2020'),
+ (8, 2, 'March 8, 2020'),
+ (8, 2, 'May 14, 2020'),
+ (9, 3, 'May 4, 2021'),
+ (10, 1, 'August 10, 2020'),
+ (10, 2, 'April 7, 2021'),
+ (10, 2, 'December 21, 2019');
 
 
 
